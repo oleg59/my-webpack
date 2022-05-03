@@ -1,0 +1,14 @@
+:root {
+  --main-bg-color: white;
+  --main-font-color: #000;
+  --main-font-family: 'Roboto', sans-serif;
+  --main-font-size: 16px;
+  --main-line-height: 1.2;
+  --main-accent-color: #E74040;
+
+  --selection-bg: var(--main-accent-color);
+  --selection-color: var(--main-font-color);
+
+  --link-color: var(--main-font-color);
+  --link-hover-color: var(--main-accent-color);
+}

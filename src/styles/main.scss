@@ -1,0 +1,39 @@
+@import 'vars';
+@import 'fonts';
+
+html, body {
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  position: relative
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  background: var(--main-bg-color);
+  color: var(--main-font-color);
+  font-family: var(--main-font-family);
+  font-size: var(--main-font-size);
+  line-height: var(--main-line-height);
+}
+
+::selection {
+  background-color: var(--selection-bg);
+  color: var(--selection-color);
+}
+
+a {
+  color: var(--link-color);
+  transition: 0.3s;
+
+  &:hover {
+    color: var(--link-hover-color);
+  }
+}
